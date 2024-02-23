@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+    int n,j,i;
+    scanf("%d",&n);
+    for(i=n;i>=1;i--)
+    {
+        for(j=1;j<=n;j++)
+        {
+            if(j<=i)
+            {
+                printf("%d",i);
+            }
+            else
+            {
+                printf("*");
+            }
+        }
+        printf("
+");
+    }
+}
